@@ -40,7 +40,7 @@ def jogar():
         numero_gerado = 100
         
     for rodada in range(1, tentativas + 1):
-        print('tentativa {} de {}'.format(rodada, tentativas))
+        print('tentativa {} de {}'.format(rodada, tentativas), numero_secreto)
         chute = int(input("Digite o seu número entre 1 e {}: ".format(numero_gerado)))
         print("Você digitou:", chute)
         
@@ -50,7 +50,7 @@ def jogar():
         
 
         if(chute == numero_secreto):
-            print('Você acertou em {} tentivas e fez {} pontos de {} pontos possiveis!'.format(tentativas, pontos, pontos_maximo)) 
+            print('Você acertou em {} tentivas e fez {} pontos de {} pontos possiveis!'.format(rodada, pontos, pontos_maximo)) 
             break # Para finalizar o programa
         else:
             if(chute > numero_secreto):
