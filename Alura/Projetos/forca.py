@@ -5,13 +5,20 @@ def jogar():
     print('Bem-vindo(a) ao jogo da Forca')
     print('{:=<30}'.format('='))
     
-    palavra_secreta = 'lindo'
+    palavra_secreta = 'banana'
     enforcou = False #bool
     acertou = False
     
     #Enquanto não enforcou e não acertou contiua
     while(not enforcou and not acertou):     
-        print('jogando')
+        chute = input('Qual letra: ')
+        
+        index = 0
+        
+        for letra in palavra_secreta:
+            if(chute == letra):
+                print("Encontrei a letra {} na posição {}".format(chute, index))
+            index += 1
     
 if(__name__ == '__main__'):     #ele seta automaticamente uma variavel e isso é para fazer a verificação
     jogar()
