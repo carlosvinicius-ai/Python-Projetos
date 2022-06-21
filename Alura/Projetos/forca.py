@@ -1,3 +1,5 @@
+import random as rd
+
 
 def jogar():
     
@@ -5,7 +7,20 @@ def jogar():
     print('Bem-vindo(a) ao jogo da Forca')
     print('{:=<30}'.format('='))
     
-    palavra_secreta = 'maca'.upper()
+    arquivo = open("palavras.txt", "r") #para pegar um arquivo escolhido
+    palavras = []
+    
+    for linha in arquivo:
+        linha = linha.strip()
+        palavras.append(linha)
+    
+    arquivo.close()
+    
+    print(palavras)
+
+    numero = rd.randrange(0, len(palavras)) #para aleatorizar seguindo o tamanho do arquivo
+    
+    palavra_secreta = palavras[numero].upper()
     letras_acertadas = ['_' for letra in palavra_secreta] #Criação da lista
     enforcou = False #bool
     acertou = False
@@ -22,7 +37,7 @@ def jogar():
         if(chute in palavra_secreta):
             index = 0
             for letra in palavra_secreta:
-                if(chute.upper() == letra.upper()):
+                if(chute == letra):
                     letras_acertadas[index] = letra #alterando o valor da lista para as letras colocadas se forem de acordo com a palavra secreta    
                 index += 1
         else:
@@ -35,7 +50,7 @@ def jogar():
         
         if(acertou):
             print('você ganhou!')
-        else: 
+        elif(enforcou):
             print('você errou!')
 
     
