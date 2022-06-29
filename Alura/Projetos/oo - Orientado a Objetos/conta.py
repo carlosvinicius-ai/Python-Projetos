@@ -21,9 +21,19 @@ class Conta:
         destino.depositar(valor)
 
     # sempre retorna
-    def get_saldo(self):
+    @property
+    def saldo(self):
         return self.__saldo
 
+    @property
+    def titular(self):
+        return self.__titular
+
+    @property
+    def limite(self):
+        return self.__limite
+
     # nunca retorna
-    def set_limite(self, limite):
+    @limite.setter
+    def limite(self, limite):
         self.__limite = limite
