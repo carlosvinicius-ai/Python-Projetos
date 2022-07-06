@@ -7,7 +7,7 @@ class Programa:
     def dar_like(self):
         self._likes += 1
     
-    @property
+    @property       #get
     def likes(self):
         return self._likes
         
@@ -15,7 +15,7 @@ class Programa:
     def nome(self):
         return self._nome
     
-    @nome.setter
+    @nome.setter    #set      
     def nome(self, novo_nome):
         self._nome = novo_nome.title()
 
@@ -23,7 +23,7 @@ class Programa:
 class Filme (Programa):         #para criar uma herança com a classe mãe
     def __init__(self, nome, ano, duracao):
         super().__init__(nome, ano)
-        self.duracao = duracao
+        self.duracao = duracao  
         
 class Serie (Programa):
     def __init__(self, nome, ano, temporada):
