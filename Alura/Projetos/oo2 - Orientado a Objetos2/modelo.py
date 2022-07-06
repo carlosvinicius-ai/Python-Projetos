@@ -26,10 +26,8 @@ class Programa:
 
 class Filme (Programa):         #para criar uma herança com a classe mãe
     def __init__(self, nome, ano, duracao):
-        self._nome = nome.title()
-        self._ano = ano
+        super().__init__(nome, ano)
         self._duracao = duracao
-        self._likes = 0
         
     @property
     def duracao(self):
@@ -37,10 +35,8 @@ class Filme (Programa):         #para criar uma herança com a classe mãe
         
 class Serie (Programa):
     def __init__(self, nome, ano, temporada):
-        self._nome = nome.title()
-        self._ano = ano
+        super().__init__(nome, ano)
         self._temporada = temporada
-        self._likes = 0
         
     @property
     def temporada(self):
