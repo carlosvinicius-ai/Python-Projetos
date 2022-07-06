@@ -1,3 +1,3 @@
 # Repositório para o curso de Python da Alura
 
-<img src="https://cuponomia-a.akamaihd.net/img/stores/original/alura-637582521816079946.png" align-item="left" width="100px"/>  Repositório criado para compartilhar os projetos propostos pela </a href="https://www.alura.com.br">Alura</a> para também ir aprendendo sobre a minha evolução no processo de aprendizagem da linguagem Python <img src="https://www.alura.com.br/artigos/assets/python-uma-introducao-a-linguagem/imagem1.gif" width="100px"/>
+<img src="https://cuponomia-a.akamaihd.net/img/stores/original/alura-637582521816079946.png" align-item="left" width="100px"/>  Repositório criado para compartilhar os projetos propostos pela <a href="https://www.alura.com.br">Alura</a> para também ir aprendendo sobre a minha evolução no processo de aprendizagem da linguagem Python <img src="https://www.alura.com.br/artigos/assets/python-uma-introducao-a-linguagem/imagem1.gif" width="100px"/>
