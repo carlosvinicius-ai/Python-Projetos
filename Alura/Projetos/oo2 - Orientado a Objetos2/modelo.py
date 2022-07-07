@@ -42,3 +42,9 @@ atlanta.dar_like()
 
 print(f'Nome: {vingadores.nome} - Ano: {vingadores.ano} - Duração: {vingadores.duracao}m - Likes: {vingadores.likes}')
 print(f'Nome: {atlanta.nome} - Ano: {atlanta.ano} - Temporadas: {atlanta.temporada} - Likes {atlanta.likes}')
+
+filmes_e_series = [vingadores, atlanta]
+
+for programa in filmes_e_series:
+    detalhes = programa.duracao if hasattr(programa, 'duracao') else programa.temporada     #hasattr é utilizado para saber se possui o atributo selecionado
+    print(f'Nome: {programa.nome} - Ano: {programa.ano} - Temporadas/Duração: {detalhes} - Likes {programa.likes}')
