@@ -3,7 +3,7 @@
 
 # utilizando a biblioteca math
 
-import math
+from math import trunc
 
 print('='*50)
 print('Exercício 16')
@@ -11,7 +11,7 @@ print('='*50)
 
 num = float(input('Digite um valor: '))
 
-print(f'O valor real é {num} e sua porção inteira é {math.trunc(num)}') #utilizado para arredondar
+print(f'O valor real é {num} e sua porção inteira é {trunc(num)}') #utilizado para arredondar
 
 #match.ceil() é utilizado para arredondar para cima
 
