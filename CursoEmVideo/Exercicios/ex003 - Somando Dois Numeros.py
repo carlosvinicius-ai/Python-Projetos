@@ -1,3 +1,7 @@
+print('='*50)
+print('Exercício 3')
+print('='*50)
+
 n1 = int(input('Digite um valor '))
 n2 = int(input('Digite outro valor '))
 s = n1 + n2

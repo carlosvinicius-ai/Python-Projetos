@@ -1,5 +1,6 @@
 # Faça um programa que leia o salário de um funcionário e mostre seu novo salário com 15% de aumento
 
+print('='*50)
 print('Exercício 13')
 print('='*50)
 

@@ -1,5 +1,6 @@
 # Faça um programa que leia o preço de um produto e mostre este produto com 5% de desconto
 
+print('='*50)
 print('Exercício 12')
 print('='*50)
 

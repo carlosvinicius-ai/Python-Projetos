@@ -1,5 +1,6 @@
 # Crie um programa que leia quanto dinheiro a pessoa tem em sua carteira e mostre quantos dolares ela pode comprar
 
+print('='*50)
 print('Exercício 10')
 print('='*50)
 

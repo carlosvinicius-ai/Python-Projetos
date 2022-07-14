@@ -1,3 +1,7 @@
+print('='*50)
+print('Exercício 4')
+print('='*50)
+
 a = input('Digite algo: ')
 
 print('o tipo primitivo desse valor é: ', type(a))

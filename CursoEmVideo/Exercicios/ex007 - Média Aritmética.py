@@ -1,5 +1,6 @@
 # Desenvolva um programa que leia duas notas de um aluno, calcule e mostre a sua média
 
+print('='*50)
 print('Exercício 7')
 print('='*50)
 

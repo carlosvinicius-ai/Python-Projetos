@@ -1,5 +1,6 @@
 #Escreva um programa que converta uma temperatura digitando em graus Celsius e converta para graus Fahrenheit
 
+print('='*50)
 print('Exercício 14')
 print('='*50)
 

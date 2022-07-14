@@ -2,6 +2,7 @@
 
 import math
 
+print('='*50)
 print('Exercício 16')
 print('='*50)
 

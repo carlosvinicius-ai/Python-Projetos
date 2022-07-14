@@ -1,5 +1,6 @@
 # Crie um algoritimo que leia um número e mostre o seu dobro, triplo e raiz quadrada
 
+print('='*50)
 print('Exercício 6')
 print('='*50)
 

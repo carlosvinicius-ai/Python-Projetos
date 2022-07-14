@@ -1,5 +1,6 @@
 # Faça um programa que leia um número e mostre sua tabuada
-print('Exercício 9')
+print('='*50)
+print('Exercício 19')
 print('='*50)
 
 n1 = int(input('Insira o número que quer saber a tabuada: '))
