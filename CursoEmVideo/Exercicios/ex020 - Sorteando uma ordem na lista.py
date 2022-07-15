@@ -17,3 +17,9 @@ shuffle(alunos)
 
 print(f'a ordem de apresentação será:')
 print(alunos)
+
+
+'''
+random.shuffle(x[, random])
+Embaralha a sequência x no lugar.
+'''
