@@ -1,7 +1,7 @@
 # Faça um programa que leia o preço de um produto e mostre este produto com 5% de desconto
 
 print('='*50)
-print('Exercício 12')
+print('Exercício 12 - Calculando Descontos')
 print('='*50)
 
 v1 = float(input('Insira o valor do produto: R$'))

@@ -1,5 +1,5 @@
 print('='*50)
-print('Exercício 4')
+print('Exercício 4 - Dissecando uma variavel')
 print('='*50)
 
 a = input('Digite algo: ')

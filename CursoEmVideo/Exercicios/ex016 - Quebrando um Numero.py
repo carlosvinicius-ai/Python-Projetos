@@ -6,7 +6,7 @@
 from math import trunc
 
 print('='*50)
-print('Exercício 16')
+print('Exercício 16 - Quebrando Numero')
 print('='*50)
 
 num = float(input('Digite um valor: '))

@@ -1,7 +1,7 @@
 # Desenvolva um programa que leia duas notas de um aluno, calcule e mostre a sua média
 
 print('='*50)
-print('Exercício 7')
+print('Exercício 7 - Média Aritimética')
 print('='*50)
 
 prof = input('Por favor insira o nome do professor: ')

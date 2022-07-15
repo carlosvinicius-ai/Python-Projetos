@@ -1,6 +1,6 @@
 # Escreva um programa que leia um valor em metros e o exiba convertido em centimetros e milimetros
 print('='*50)
-print('Exercício 8')
+print('Exercício 8 - Conversor de Medidas')
 print('='*50)
 m = float(input('Insira um valor em Metros: '))
 cm = m*100

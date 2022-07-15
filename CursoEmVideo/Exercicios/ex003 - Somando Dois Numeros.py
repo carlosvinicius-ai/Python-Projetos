@@ -1,5 +1,5 @@
 print('='*50)
-print('Exercício 3')
+print('Exercício 3 - Somando dois numeros')
 print('='*50)
 
 n1 = int(input('Digite um valor '))

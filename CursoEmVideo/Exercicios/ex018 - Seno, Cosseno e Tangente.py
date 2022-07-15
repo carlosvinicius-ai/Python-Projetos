@@ -3,7 +3,7 @@
 import math
 
 print('='*50)
-print('Exercício 18')
+print('Exercício 18 - Seno, Cosseno e Tangente')
 print('='*50)
 
 angulo = float(input('Digite o valor do Ângulo: '))

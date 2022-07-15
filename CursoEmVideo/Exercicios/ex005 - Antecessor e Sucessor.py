@@ -1,7 +1,7 @@
 # Faça um programa q calcule um número inteiro e mostre na tela seu sucessor e seu antecessor 
 
 print('='*50)
-print('Exercício 5')
+print('Exercício 5 - Antecessor e Sucessor')
 print('='*50)
 
 n1 = int(input('Insira um número inteiro: '))

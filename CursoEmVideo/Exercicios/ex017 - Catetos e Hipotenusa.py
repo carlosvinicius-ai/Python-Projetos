@@ -5,7 +5,7 @@
 import math
 
 print('='*50)
-print('Exercício 17')
+print('Exercício 17 - Catetos e Hipotenusa')
 print('='*50)
 
 
