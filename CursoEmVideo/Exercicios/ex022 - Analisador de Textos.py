@@ -6,7 +6,6 @@
 
 – Quantas letras tem o primeiro nome.'''
 
-
 print('='*50)
 print('Exercício 22 – Analisador de Textos')
 print('='*50)
@@ -17,6 +16,6 @@ separa = nome.split()
 print(f'''Seu nome com todas letras maiuscula é: {nome.upper()}
 Seu nome com todas as letras minuscula é: {nome.lower()}
 Seu nome tem: {len(nome)- nome.count(' ')} letras
-Seu primeiro nome é {separa[1]} tem {len(separa[0])} letras''')
+Seu primeiro nome é {separa[0]} tem {len(separa[0])} letras''')
 
 # - nome.count() para diminuir
