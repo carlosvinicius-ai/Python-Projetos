@@ -9,3 +9,4 @@ Repositório criado para compartilhar desafios e projetos feitos utilizando a li
 - [Alura:](https://github.com/carlosvinicius-ai/Python-Projetos/tree/master/Alura)
 - [Curso Em Video:](https://github.com/carlosvinicius-ai/Python-Projetos/tree/master/CursoEmVideo)
 - [FIAP:](https://github.com/carlosvinicius-ai/Python-Projetos/tree/master/FIAP)
+- [Coursera:](https://github.com/carlosvinicius-ai/Python-Projetos/tree/master/Coursera)
