@@ -1,10 +1,11 @@
-print('Digite uma sequencias de valores terminada por zero')
+tamanho = int(input('Digite o tamanho da sequencia de numeros: '))
 
-soma = 0
-valor = 1
+soma = 1
+i = 0
 
-while valor != 0:
+while i < tamanho:
     valor = int(input('digite o valor a ser somado: '))
     soma = soma + valor
+    i += 1
     
 print('a soma dos valores digitados é:', soma)
