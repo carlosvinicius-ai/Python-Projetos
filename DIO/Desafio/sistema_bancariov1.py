@@ -23,7 +23,7 @@ while True:
         
         if valor > 0:
             saldo += valor
-            extrato += f'Depósito R$ {valor:.2f}\n'
+            extrato += f'Depósito R$ {valor:.2f}\n' # Para adicionar a váriavel exrtrato
             
         else:
             print('Digite um valor acima de R$0.00')
@@ -47,7 +47,7 @@ while True:
         elif valor > 0:
             saldo -= valor
             extrato += f'Saque: R$ {valor:.2f} \n'
-            numero_saque += 1
+            numero_saque += 1 #Para aumentar o valor do numero de saque
         
         else:
             print('Digite um valor válido')
