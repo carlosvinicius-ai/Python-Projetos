@@ -3,7 +3,9 @@
 Repositório criado com o intuito de compartilhar meu aprendizado através dos cursos proporcionados pela [DIO](https://web.dio.me/home)
 
 <details>
-<summary>Fundamentos de Python</summary>
+    <summary>Fundamentos de Python</summary>
+
+ <br/>
 
     <table>
         <tr>
