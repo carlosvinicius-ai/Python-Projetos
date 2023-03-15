@@ -2,17 +2,8 @@
 
 Repositório criado com o intuito de compartilhar meu aprendizado através dos cursos proporcionados pela [DIO](https://web.dio.me/home)
 
-<details>
-    <summary>Fundamentos de Python</summary>
+- Fundamentos de Python
 
- <br/>
-
-    <table>
-        <tr>
-            <td>Tipos de Operadores Python</td>
-            <td><a href="https://github.com/carlosvinicius-ai/Python-Projetos/tree/master/DIO/Tipos_de_Operadores">Código</a></td>
-            <td align="center">✔️</td>
-        </tr>
-    </table>
-
-</details>
+| Nome | Link | Check
+| ------ | ------ | | ------ |
+| Tipos de Operadores com Python | [https://github.com/carlosvinicius-ai/Python-Projetos/tree/master/DIO/Tipos_de_Operadores] | ✔️ |
