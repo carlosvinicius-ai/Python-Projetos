@@ -5,6 +5,6 @@ Repositório criado com o intuito de compartilhar meu aprendizado através dos c
 <details>
 <summary>Fundamentos de Python</summary>
 
-    [Tipos de Operadores com Python](https://github.com/carlosvinicius-ai/Python-Projetos/tree/master/DIO/Tipos_de_Operadores)
+    <a href= "https://github.com/carlosvinicius-ai/Python-Projetos/tree/master/DIO/Tipos_de_Operadores">Tipos de Operadores com Python </a>
 
 </details>
