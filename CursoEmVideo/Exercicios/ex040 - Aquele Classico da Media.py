@@ -5,6 +5,7 @@ nota2 = float(input('Entre com a Segunda nota: '))
 
 media = (nota1 + nota2) / 2
 
+print('A média do aluno foi {} o aluno está:'.format(media))
 if media < 5.0:
     print('\033[1;49;31mREPROVADO')
 elif media < 6.9:
