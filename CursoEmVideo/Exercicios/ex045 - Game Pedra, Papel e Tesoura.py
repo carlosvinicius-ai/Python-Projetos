@@ -1,0 +1,1 @@
+# Crie um cprograma que faça o computador jogar jokenpo com você

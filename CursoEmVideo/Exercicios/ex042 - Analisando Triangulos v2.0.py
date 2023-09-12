@@ -1,0 +1,1 @@
+# Refaça o desafio 32 dos triangulos, acrescentando o recurso de mostrar que tipo de triângulo será formado: - Equilatero: Todos os lados iguais, - Isósceles: dois lados iguais, - Escaleno: todos os lados diferentes
