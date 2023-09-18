@@ -4,6 +4,8 @@ print('-'*20)
 print('CONTAGEM DE NÚMEROS PARES')
 print('-'*20)
 
-for i in range(0, 51):
+for i in range(1, 51):
     if (i % 2) == 0:
-        print(i)
+        print(i, end=' ')
+
+print('ACABOU A CONTAGEM')
