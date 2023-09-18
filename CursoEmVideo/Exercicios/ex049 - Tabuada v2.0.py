@@ -3,6 +3,6 @@
 num1 = int(input('Escolha um número para ser multiplicado: '))
 num2 = int(input('Escolha até qual número será multiplicado: '))
 
-for i in range(num2):
-    print('{} X {} = {}'.format(num1, num2, num1*num2))
+for i in range(1, num2+1):
+    print('{} X {} = {}'.format(num1, i, num1*i))
     num2 -= 1
