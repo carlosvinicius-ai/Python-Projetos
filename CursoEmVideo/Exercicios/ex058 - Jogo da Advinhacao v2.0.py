@@ -10,7 +10,11 @@ print('Estou pensando em um numero entre 1 e 10, em qual numero eu pensei?')
 chute = int(input('Digite um numero de 1 a 10: '))
 
 while chute != number:
-    chute = int(input('Chute errado, Digite um numero de 1 a 10: '))
-    soma += 1
+    if chute > number:
+        chute = int(input('Chute acima do número pensado, Digite um numero de 1 a 10: '))
+        soma += 1
+    elif chute < number:
+        chute = int(input('Chute abaixo do número pensado, Digite um numero de 1 a 10: '))
+        soma += 1
 
 print('VOCÊ ACERTOU, o número era {} e você acertou após {} tentativas'.format(number, soma))
