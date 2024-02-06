@@ -11,5 +11,5 @@ print(texto.lstrip()) #retirar o espaço a esquerda
 print(texto.rstrip()) #reitrar o espaço a direito
 
 menu = 'Python'
-print(menu.center(14, '#')) #centralizar o texto
+print(menu.center(14)) #centralizar o texto
 print("-".join(menu)) # adicionar uma informação a cadas letra do texto
