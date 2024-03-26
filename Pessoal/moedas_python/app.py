@@ -11,7 +11,7 @@ import random as rd
 
 # criando o arquivo cotação na pasta moedas
 try:
-    with open('moedas/cotacao.csv', 'x') as base:
+    with open('https://raw.githubusercontent.com/carlosvinicius-ai/Python-Projetos/master/Pessoal/moedas_python/moedas/cotacao.csv', 'x') as base:
         base = base.write('moeda,valor,data,hora\n')
 
 except FileExistsError:
@@ -67,7 +67,7 @@ data_atual = data_agora.strftime('%d/%m/%Y')
 hora_atual = data_agora.strftime('%H:%M:%S')
 
 # armazenando a data atual no nosso arquivo txt
-with open('moedas/cotacao.csv', 'a') as adicionar:
+with open('https://raw.githubusercontent.com/carlosvinicius-ai/Python-Projetos/master/Pessoal/moedas_python/moedas/cotacao.csv', 'a') as adicionar:
     adicionar = adicionar.write(f'{converter},R${float(valor_atual):.2f},{data_atual},{hora_atual}\n')
 
 
