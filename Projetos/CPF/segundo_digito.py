@@ -23,10 +23,12 @@ resultado_primeiro_digito = primeiro_numero_cpf_calculo if primeiro_numero_cpf_c
 
 print(resultado_primeiro_digito)
 
+
+# Segundo digito
 dez_digitos = nove_digitos.copy()
 dez_digitos.append(resultado_primeiro_digito)
-contador = 11
 
+contador = 11
 resultado = 0
 
 for digito in dez_digitos:
