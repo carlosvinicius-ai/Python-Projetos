@@ -10,7 +10,7 @@ cpf_enviado_usuario = re.sub(
     r'[^0-9]',
     '',
     entrada
-) # retornando uma expressão regular
+) # retornando uma expressão regular -> deixando na váriavel apenas números
 
 entrada_e_sequencial = entrada == entrada[0] * len(entrada)
 
