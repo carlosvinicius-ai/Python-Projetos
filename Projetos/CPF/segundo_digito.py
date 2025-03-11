@@ -21,7 +21,6 @@ primeiro_numero_cpf_calculo = (soma_nove_digitos * 10) % 11
 
 resultado_primeiro_digito = primeiro_numero_cpf_calculo if primeiro_numero_cpf_calculo <= 9 else 0
 
-print(resultado_primeiro_digito)
 
 
 # Segundo digito
@@ -39,4 +38,22 @@ digito = (resultado * 10) % 11
 segundo_digito = digito if digito <= 9 else 0
 
 
-print(segundo_digito)
+# verificação
+dez_digitos.append(segundo_digito)
+novo_cpf = ''
+# transformando a lista em texto para poder fazer a verificação da forma correta
+for i, digito in enumerate(dez_digitos):
+    if i == 2 or i == 5:
+        novo_cpf += str(digito)
+        novo_cpf += '.'
+        continue
+    elif i == 8:
+        novo_cpf += str(digito)
+        novo_cpf += '-'
+        continue
+    novo_cpf += str(digito)
+
+if cpf == novo_cpf:
+    print(f'{cpf} enviado é VÁLIDO')
+else:
+    print('CPF INVÁLIDO')
