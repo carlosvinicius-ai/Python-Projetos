@@ -19,3 +19,21 @@ Após a realização da multiplicação será necessário somar todos os valores
 Caso o resultado for maior que 9, o digito que irá ser representado será 0, caso contrário, o digito será o resultado da conta
 
 veja o algoritmo aqui [algoritmo primeiro numero](CPF\primeiro_digito.py)
+
+## Segundo Digito 🥈
+
+A validação do segundo dígito é semelhante à primeira, porém vamos considerar os 9 primeiros dígitos, mais o primeiro dígito verificador, e vamos multiplicar esses 10 números pela sequencia decrescente de 11 a 2
+
+**Exemplo:** 746.824.890-70
+
+        11  10 9  8  7  6  5  4  3  2 
+    X
+        7   4  6  8  2  4  8  9  0  7
+    ----------------------------------
+        77 40 54 64 14 24 40 36  0 14
+
+Após a realização da multiplicação será necessário somar todos os valores obtidos e multiplicar o resultado desta soma por 10, obtendo esse resultado, irá pegar ele e obter o resto da divisão da conta anterior por 11 (números de digitos do CPF)
+
+Caso o resultado for maior que 9, o digito que irá ser representado será 0, caso contrário, o digito será o resultado da conta
+
+veja o algoritmo aqui [algoritmo primeiro numero](CPF\segundo_digito.py)
