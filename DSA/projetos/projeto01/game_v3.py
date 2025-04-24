@@ -91,7 +91,7 @@ def personagem(chances):
 
 # gerando a palvra aleatória de acordo com uma base de dados
 def palavras(topico):
-    dados = pd.read_csv('DSA\projetos\projeto01\jogo_da_forca\dataset\palavra_secreta.csv')
+    dados = pd.read_csv('DSA\projetos\projeto01\dataset\palavra_secreta.csv')
     for k, v in topico.items():
         valor = v
     dados_filtro = dados.query(f'topico == "{valor}"')
