@@ -156,6 +156,8 @@ def game():
             print(f'Você acertou, a palavra era \033[1;33m{palavra}\033[0m')
             break
 
+    input('Aperte qualquer tecla para sair...')
+
 # Padrão para iniciação de módulo
 if __name__ == '__main__':
     game()
